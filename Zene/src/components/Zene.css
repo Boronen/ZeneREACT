@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #101014;
+    color: white;
+}
+
+
+header {
+    background: linear-gradient(135deg, #5e556e, #ec4899);
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.Zene {
+    width: 260px;
+    padding: 22px;
+    margin: 0;
+
+    background: #1c1c24;
+    border: 2px solid #7c3aed;
+    border-radius: 18px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+
+    transition: 0.25s;
+}
+
+.Zene:hover {
+    transform: translateY(-7px);
+    border-color: #ec4899;
+    box-shadow: 0 12px 30px rgba(236, 72, 153, 0.25);
+}
+
+
+.Zene h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    color: #f0abfc;
+    font-size: 23px;
+}
+
+
+.Zene p {
+    color: #d4d4d8;
+    margin: 10px 0;
+}
+
+.Zene span {
+    font-weight: bold;
+    color: #a78bfa;
+}
+
+
+.Zene button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 11px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: linear-gradient(135deg, #7c3aed, #ec4899);
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Zene button:hover {
+    transform: scale(1.04);
+    filter: brightness(1.15);
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+
+    background: #18181b;
+    border-top: 1px solid #27272a;
+}
+
+footer p {
+    margin: 0;
+    color: #a1a1aa;
+}
